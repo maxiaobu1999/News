@@ -8,8 +8,11 @@
 
 #import "NewsListVC.h"
 #import "CodingHelper.h"
+#import "APIManager.h"
 
-@interface NewsListVC ()
+@interface NewsListVC () <APIManagerDelegate> {
+    APIManager *_manager;
+}
 
 @end
 
@@ -20,11 +23,23 @@
     // Do any additional setup after loading the view.
     self.title = @"News";
     self.view.backgroundColor = kCyan;
+    
+    _manager = [[APIManager alloc] init];
+    _manager.delegate = self;
+    [_manager getNewsWithType:@"yule"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)getNewsDidSucceedWithJSONDict:(NSDictionary *)jsonDict {
+    kOutput(jsonDict);
+}
+
+- (void)getNewsDidFailWithError:(NSError *)error {
+    kOutput(error);
 }
 
 @end
