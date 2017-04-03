@@ -10,7 +10,6 @@
 		CE38F2991E91FA7E006CD5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2981E91FA7E006CD5BB /* main.m */; };
 		CE38F29C1E91FA7E006CD5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */; };
 		CE38F29E1E91FA7E006CD5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */; };
-		CE38F2A11E91FA7E006CD5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE38F29F1E91FA7E006CD5BB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +18,6 @@
 		CE38F29A1E91FA7E006CD5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE38F2A01E91FA7E006CD5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE38F2A21E91FA7E006CD5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 				CE38F29A1E91FA7E006CD5BB /* AppDelegate.h */,
 				CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */,
 				CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */,
-				CE38F29F1E91FA7E006CD5BB /* LaunchScreen.storyboard */,
 				CE38F2A21E91FA7E006CD5BB /* Info.plist */,
 				CE38F2971E91FA7E006CD5BB /* Supporting Files */,
 			);
@@ -131,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE38F29E1E91FA7E006CD5BB /* Assets.xcassets in Resources */,
-				CE38F2A11E91FA7E006CD5BB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,17 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CE38F29F1E91FA7E006CD5BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE38F2A01E91FA7E006CD5BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE38F2A31E91FA7E006CD5BB /* Debug */ = {
@@ -255,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 263FN2N6R9;
 				INFOPLIST_FILE = News/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -268,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 263FN2N6R9;
 				INFOPLIST_FILE = News/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
