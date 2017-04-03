@@ -10,6 +10,8 @@
 		CE38F2991E91FA7E006CD5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2981E91FA7E006CD5BB /* main.m */; };
 		CE38F29C1E91FA7E006CD5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */; };
 		CE38F29E1E91FA7E006CD5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */; };
+		CE38F2B11E91FEC3006CD5BB /* CodingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2B01E91FEC3006CD5BB /* CodingHelper.m */; };
+		CE38F2B41E91FEDF006CD5BB /* NewsListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2B31E91FEDF006CD5BB /* NewsListVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,10 @@
 		CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE38F2A21E91FA7E006CD5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE38F2AF1E91FEC3006CD5BB /* CodingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodingHelper.h; sourceTree = "<group>"; };
+		CE38F2B01E91FEC3006CD5BB /* CodingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodingHelper.m; sourceTree = "<group>"; };
+		CE38F2B21E91FEDF006CD5BB /* NewsListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListVC.h; sourceTree = "<group>"; };
+		CE38F2B31E91FEDF006CD5BB /* NewsListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 		CE38F2AA1E91FE38006CD5BB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE38F2B21E91FEDF006CD5BB /* NewsListVC.h */,
+				CE38F2B31E91FEDF006CD5BB /* NewsListVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +107,8 @@
 		CE38F2AB1E91FE38006CD5BB /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				CE38F2AF1E91FEC3006CD5BB /* CodingHelper.h */,
+				CE38F2B01E91FEC3006CD5BB /* CodingHelper.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -195,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE38F29C1E91FA7E006CD5BB /* AppDelegate.m in Sources */,
+				CE38F2B41E91FEDF006CD5BB /* NewsListVC.m in Sources */,
 				CE38F2991E91FA7E006CD5BB /* main.m in Sources */,
+				CE38F2B11E91FEC3006CD5BB /* CodingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

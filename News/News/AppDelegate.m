@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsListVC.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    UIViewController *vc = [[UIViewController alloc] init];
+    NewsListVC *vc = [[NewsListVC alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     
     [NSThread sleepForTimeInterval:2.0];
