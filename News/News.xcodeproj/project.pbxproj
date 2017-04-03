@@ -28,6 +28,8 @@
 		CE38F2E51E922EEE006CD5BB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2DB1E922EEE006CD5BB /* UIRefreshControl+AFNetworking.m */; };
 		CE38F2E61E922EEE006CD5BB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2DD1E922EEE006CD5BB /* UIWebView+AFNetworking.m */; };
 		CE38F2E91E922F7D006CD5BB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2E81E922F7D006CD5BB /* APIManager.m */; };
+		CE38F2EC1E9240B5006CD5BB /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2EB1E9240B5006CD5BB /* NewsCell.m */; };
+		CE38F2EF1E924440006CD5BB /* NewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2EE1E924440006CD5BB /* NewsDetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,10 @@
 		CE38F2DD1E922EEE006CD5BB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		CE38F2E71E922F7D006CD5BB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		CE38F2E81E922F7D006CD5BB /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		CE38F2EA1E9240B5006CD5BB /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		CE38F2EB1E9240B5006CD5BB /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		CE38F2ED1E924440006CD5BB /* NewsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailVC.h; sourceTree = "<group>"; };
+		CE38F2EE1E924440006CD5BB /* NewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,8 @@
 		CE38F2A91E91FE38006CD5BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE38F2EA1E9240B5006CD5BB /* NewsCell.h */,
+				CE38F2EB1E9240B5006CD5BB /* NewsCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +159,8 @@
 			children = (
 				CE38F2B21E91FEDF006CD5BB /* NewsListVC.h */,
 				CE38F2B31E91FEDF006CD5BB /* NewsListVC.m */,
+				CE38F2ED1E924440006CD5BB /* NewsDetailVC.h */,
+				CE38F2EE1E924440006CD5BB /* NewsDetailVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,6 +333,8 @@
 				CE38F2E21E922EEE006CD5BB /* UIButton+AFNetworking.m in Sources */,
 				CE38F2E51E922EEE006CD5BB /* UIRefreshControl+AFNetworking.m in Sources */,
 				CE38F2E61E922EEE006CD5BB /* UIWebView+AFNetworking.m in Sources */,
+				CE38F2EC1E9240B5006CD5BB /* NewsCell.m in Sources */,
+				CE38F2EF1E924440006CD5BB /* NewsDetailVC.m in Sources */,
 				CE38F2C61E922EDA006CD5BB /* AFURLRequestSerialization.m in Sources */,
 				CE38F2DE1E922EEE006CD5BB /* AFAutoPurgingImageCache.m in Sources */,
 				CE38F2DF1E922EEE006CD5BB /* AFImageDownloader.m in Sources */,
