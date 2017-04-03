@@ -53,6 +53,13 @@
 			children = (
 				CE38F29A1E91FA7E006CD5BB /* AppDelegate.h */,
 				CE38F29B1E91FA7E006CD5BB /* AppDelegate.m */,
+				CE38F2A81E91FE38006CD5BB /* Model */,
+				CE38F2A91E91FE38006CD5BB /* View */,
+				CE38F2AA1E91FE38006CD5BB /* Controller */,
+				CE38F2AB1E91FE38006CD5BB /* Util */,
+				CE38F2AC1E91FE38006CD5BB /* Third */,
+				CE38F2AD1E91FE38006CD5BB /* SDK */,
+				CE38F2AE1E91FE38006CD5BB /* Resource */,
 				CE38F29D1E91FA7E006CD5BB /* Assets.xcassets */,
 				CE38F2A21E91FA7E006CD5BB /* Info.plist */,
 				CE38F2971E91FA7E006CD5BB /* Supporting Files */,
@@ -66,6 +73,55 @@
 				CE38F2981E91FA7E006CD5BB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE38F2A81E91FE38006CD5BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE38F2A91E91FE38006CD5BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE38F2AA1E91FE38006CD5BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE38F2AB1E91FE38006CD5BB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CE38F2AC1E91FE38006CD5BB /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		CE38F2AD1E91FE38006CD5BB /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		CE38F2AE1E91FE38006CD5BB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
